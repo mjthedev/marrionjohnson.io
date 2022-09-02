@@ -1,27 +1,27 @@
-body {
+    body {
     margin: 0px;
-    background-color: lightblue;
+    background-color: rgb(17,37,130);
 }
 .navBar{
 /* width: 1400px; */
-height: 80px;
-margin-top: 100px;
+height: 140px;
+margin-top: 50px;
 /* margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px; */
-background-color: lightcoral;
-border-style: solid;    
+background-color: rgb(17,37,130 );
+// border-style: solid;    
 border-color: black;
 
 }
 .firstDiv{
 width: 1370px;
 height: 563px;
-margin-top: 30px;
+// margin-top: 30px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px;
-background-color: lightcoral;
+background-color: rgb(54,29,116);
 border-style: solid;    
 border-color: black;
 }
@@ -32,7 +32,7 @@ margin-top: 30px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px;
-background-color: lightcoral;
+background-color: rgb(54,29,116);
 border-style: solid;    
 border-color: black;
 }
@@ -43,7 +43,7 @@ margin-top: 30px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px;
-background-color: lightcoral;
+background-color: rgb(54,29,116);
 border-style: solid;    
 border-color: black;
 }
@@ -54,7 +54,7 @@ margin-top: 30px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px;
-background-color: lightcoral;
+background-color: rgb(54,29,116);
 border-style: solid;    
 border-color: black;
 }
@@ -65,7 +65,7 @@ margin-top: 30px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 10px;
-background-color: lightcoral;
+background-color: rgb(54,29,116);
 border-style: solid;    
 border-color: black;
 }    
@@ -76,15 +76,15 @@ margin-top: 60px;
 /* margin-left: 30px;
 margin-right: 20px; */
 margin-bottom: 30px;
-background-color: lightcoral;
+background-color: rgb(54,29,116);
 border-style: solid;    
 border-color: black;
 } 
 
 ul{
     float: right;
-    margin-top: 30px;
-    margin-right: 200px;
+    margin-top: 50px;
+    margin-right: 300px;
     padding: 0;
     font-size: 20px;
     font-style: normal;
@@ -94,17 +94,16 @@ ul{
 li{
     display: inline;
     /* margin-top: 30px; */
-    margin-right: 30px;
+    margin-right: 40px;
     font-style: normal;
 }
 a{
     color: white;
     text-decoration: none;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;;;
 }
 a:hover{
     color:peachpuff;
     text-decoration: underline;
 }
 // 
-
