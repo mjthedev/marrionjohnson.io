@@ -2,16 +2,37 @@
     margin: 0px;
     background-color: rgb(17,37,130);
 }
+
+.header{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+}
+
+.divHeader{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.divText{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 60px;
+
+}
 .navBar{
 /* width: 1400px; */
-height: 140px;
-margin-top: 50px;
+height: 100px;
+margin-top: 10px;
 /* margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px; */
 background-color: rgb(17,37,130 );
-// border-style: solid;    
-border-color: black;
+border-style: solid;    
+border-color: white;
+text-align: center;
 
 }
 .firstDiv{
@@ -25,69 +46,16 @@ background-color: rgb(54,29,116);
 border-style: solid;    
 border-color: black;
 }
-.secondDiv{
-width: 1370px;
-height: 750px;
-margin-top: 30px;
-margin-left: 30px;
-margin-right: 20px;
-margin-bottom: 30px;
-background-color: rgb(54,29,116);
-border-style: solid;    
-border-color: black;
-}
-.thirdDiv{
-width: 1370px;
-height: 750px;
-margin-top: 30px;
-margin-left: 30px;
-margin-right: 20px;
-margin-bottom: 30px;
-background-color: rgb(54,29,116);
-border-style: solid;    
-border-color: black;
-}
-.fourthDiv{
-width: 1370px;
-height: 750px;
-margin-top: 30px;
-margin-left: 30px;
-margin-right: 20px;
-margin-bottom: 30px;
-background-color: rgb(54,29,116);
-border-style: solid;    
-border-color: black;
-}
-.fifthDiv{
-width: 1370px;
-height: 750px;
-margin-top: 30px;
-margin-left: 30px;
-margin-right: 20px;
-margin-bottom: 10px;
-background-color: rgb(54,29,116);
-border-style: solid;    
-border-color: black;
-}    
-.baseBar{
-     /* width: 1400px; */
-height: 200px;
-margin-top: 60px;
-/* margin-left: 30px;
-margin-right: 20px; */
-margin-bottom: 30px;
-background-color: rgb(54,29,116);
-border-style: solid;    
-border-color: black;
-} 
+  
 
 ul{
-    float: right;
+    // float: right;
     margin-top: 50px;
-    margin-right: 300px;
+    // margin-right: 300px;
     padding: 0;
     font-size: 20px;
     font-style: normal;
+    text-align: center;
 
 }
 
@@ -96,11 +64,13 @@ li{
     /* margin-top: 30px; */
     margin-right: 40px;
     font-style: normal;
+    text-align: center;
 }
 a{
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;;;
+    text-align: center;
 }
 a:hover{
     color:peachpuff;
