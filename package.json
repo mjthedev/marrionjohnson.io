@@ -1,13 +1,14 @@
 {
   "name": "WebDev",
   "version": "1.0.0",
-  "nodemonConfig":{
+  "nodemonConfig": {
     "ext": "js,html,css"
   },
   "description": "Personal Website",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
     "bootstrap": "^5.2.0",
     "env": "^0.0.2",
     "express": "^4.18.1",

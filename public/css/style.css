@@ -7,10 +7,11 @@
     color: white;
     font-size: 30px;
     text-align: center;
-    border-style: solid;
+    // border-style: solid;
 }
 
 .divHeader{
+    // margin-top: 60px;
     color: white;
     font-size: 24px;
     text-align: center;
@@ -22,29 +23,36 @@
     margin-top: 60px;
 
 }
+
+
+
+
+
+
 .navBar{
 /* width: 1400px; */
 height: 100px;
-margin-top: 10px;
+margin-top: 100px;
 /* margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px; */
 background-color: rgb(17,37,130 );
-border-style: solid;    
-border-color: white;
+// border-style: solid;    
+// border-color: white;
 text-align: center;
 
 }
 .firstDiv{
 width: 1370px;
-height: 563px;
+height: 450px;
 // margin-top: 30px;
+padding-top: 30px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px;
 background-color: rgb(54,29,116);
-border-style: solid;    
-border-color: black;
+// border-style: solid;    
+// border-color: black;
 }
   
 
@@ -52,9 +60,7 @@ ul{
     // float: right;
     margin-top: 50px;
     // margin-right: 300px;
-    padding: 0;
     font-size: 20px;
-    font-style: normal;
     text-align: center;
 
 }
@@ -63,17 +69,16 @@ li{
     display: inline;
     /* margin-top: 30px; */
     margin-right: 40px;
-    font-style: normal;
-    text-align: center;
+    // text-align: center;
 }
 a{
     color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;;;
-    text-align: center;
+    // text-decoration: none;
+    // font-family: Arial, Helvetica, sans-serif;;;
+    // text-align: center;
 }
 a:hover{
     color:peachpuff;
-    text-decoration: underline;
+    // text-decoration: underline;
 }
 // 
