@@ -1,12 +1,15 @@
     body {
     margin: 0px;
-    background-color: rgb(17,37,130);
+    // background-color: rgb(17,37,130);
+    background-image: url('../img/spacex.jpg');
+
 }
 
 .header{
     color: white;
     font-size: 30px;
     text-align: center;
+    font-family: "JetBrains Mono",monospace;
     // border-style: solid;
 }
 
@@ -15,13 +18,24 @@
     color: white;
     font-size: 24px;
     text-align: center;
+    font-family: "JetBrains Mono",monospace;
 }
 .divText{
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
+    font-family: "JetBrains Mono",monospace;
+    text-align: left;
 
+}
+
+.nestedDiv{
+    text-align: center;
+    margin: 0 auto;
+    // border: solid;
+    width: 620px;
+    
 }
 
 
@@ -36,7 +50,8 @@ margin-top: 100px;
 /* margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px; */
-background-color: rgb(17,37,130 );
+// background-color: rgb(17,37,130 );
+background-color: transparent;
 // border-style: solid;    
 // border-color: white;
 text-align: center;
@@ -50,7 +65,9 @@ padding-top: 30px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px;
-background-color: rgb(54,29,116);
+// background-color: rgb(17,37,130);
+background-color: transparent;
+
 // border-style: solid;    
 // border-color: black;
 }
