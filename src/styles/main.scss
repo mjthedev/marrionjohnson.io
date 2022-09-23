@@ -1,7 +1,7 @@
-    body {
+body {
     margin: 0px;
-    // background-color: rgb(17,37,130);
-    background-image: url('../img/spacex.jpg');
+  
+    background-color: rgb(37, 41, 45);
 
 }
 
@@ -10,11 +10,11 @@
     font-size: 30px;
     text-align: center;
     font-family: "JetBrains Mono",monospace;
-    // border-style: solid;
+
 }
 
 .divHeader{
-    // margin-top: 60px;
+
     color: white;
     font-size: 24px;
     text-align: center;
@@ -33,7 +33,7 @@
 .nestedDiv{
     text-align: center;
     margin: 0 auto;
-    // border: solid;
+
     width: 620px;
     
 }
@@ -44,39 +44,26 @@
 
 
 .navBar{
-/* width: 1400px; */
+
 height: 100px;
 margin-top: 100px;
-/* margin-left: 30px;
-margin-right: 20px;
-margin-bottom: 30px; */
-// background-color: rgb(17,37,130 );
 background-color: transparent;
-// border-style: solid;    
-// border-color: white;
 text-align: center;
 
 }
 .firstDiv{
 width: 1370px;
 height: 450px;
-// margin-top: 30px;
 padding-top: 30px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px;
-// background-color: rgb(17,37,130);
 background-color: transparent;
-
-// border-style: solid;    
-// border-color: black;
 }
   
 
 ul{
-    // float: right;
     margin-top: 50px;
-    // margin-right: 300px;
     font-size: 20px;
     text-align: center;
 
@@ -84,18 +71,13 @@ ul{
 
 li{
     display: inline;
-    /* margin-top: 30px; */
     margin-right: 40px;
-    // text-align: center;
 }
 a{
     color: white;
-    // text-decoration: none;
-    // font-family: Arial, Helvetica, sans-serif;;;
-    // text-align: center;
 }
 a:hover{
     color:peachpuff;
-    // text-decoration: underline;
+
 }
-// 
+
