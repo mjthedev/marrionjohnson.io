@@ -53,6 +53,19 @@ module.exports = {
             title: 'My Website',
             filename: 'index.html',
             template: './src/html/index.html',
-        })
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/html/about.html',
+            filename: 'about.html',
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/html/writing.html',
+            filename: 'writing.html',
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/html/projects.html',
+            filename: 'projects.html',
+        }),
+     
     ]
 };
