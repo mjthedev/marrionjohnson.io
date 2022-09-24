@@ -1,9 +1,10 @@
+$primary-color: #25292d;
+
 body {
     margin: 0px;
-  
-    background-color: rgb(37, 41, 45);
-
+    background-color: $primary-color;
 }
+
 
 .header{
     color: white;
@@ -40,27 +41,34 @@ body {
 
 
 
-
-
-
 .navBar{
 
-height: 100px;
-background-color: transparent;
-text-align: center;
-border: white;
-border-style: solid;
+    height: 100px;
+    text-align: center;
+    border: white;
+    border-style: solid;
+    position:sticky;
+    top:0;
+    width: 100%;
+    background-color: rgb(25,28,31);
 
 }
-.firstDiv{
+
+
+.commonDiv{
 width: 1370px;
 height: 450px;
 padding-top: 30px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 30px;
-background-color: transparent;
+background-color: $primary-color;
+text-align: center;
+
 }
+
+
+
 
 .nameIcon {
     margin-right: 20px;
