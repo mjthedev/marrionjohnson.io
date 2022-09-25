@@ -55,12 +55,12 @@ module.exports = {
             template: './src/html/index.html',
         }),
         new HtmlWebpackPlugin({
-            template: './src/html/about.html',
-            filename: 'about.html',
+            template: './src/html/aboutme.html',
+            filename: 'aboutme.html',
         }),
         new HtmlWebpackPlugin({
-            template: './src/html/writing.html',
-            filename: 'writing.html',
+            template: './src/html/thingsiread.html',
+            filename: 'thingsiread.html',
         }),
         new HtmlWebpackPlugin({
             template: './src/html/projects.html',
