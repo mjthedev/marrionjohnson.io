@@ -1,4 +1,4 @@
-#find influence from other websites
+#find more influence from other websites
 -https://www.taniarascia.com/me
 
 
