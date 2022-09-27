@@ -1,0 +1,195 @@
+
+
+
+@import 'variables.scss';
+$primary-color: #25292d;
+$secondary-color: rgb(25,28,31);
+$primary-font-family: "JetBrains Mono",monospace;
+
+body {
+    margin: 0px;
+    background-color: $primary-color;
+}
+
+
+.header{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: $primary-font-family;
+
+}
+
+.divHeader{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+    font-family: $primary-font-family;
+    // border: white;
+    // border-style: solid;
+}
+
+
+.divText{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: $primary-font-family;
+    text-align: left;
+
+}
+
+
+.navBar{
+
+    height: 100px;
+    text-align: center;
+    border: white;
+    border-style: solid;
+    position:sticky;
+    top:0;
+    width: 100%;
+    background-color: rgb(25,28,31);
+
+}
+
+
+.commonDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    background-color: $primary-color;
+    // border: wheat;
+    // border-style: solid;
+}
+
+.aboutMeContentHeaders  {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: $primary-color;
+    // border: wheat;
+    // border-style: solid;
+    font-size: 20;
+    color: white;
+    font-family: $primary-font-family;  
+    border-bottom: 1px solid #4b5056;
+}
+
+
+.viewAll {
+    // display: inline;
+    display: inline;
+    width: 80px;
+    padding: 20px;
+    font-size: 8px;
+    text-align: right;
+    // border: wheat;
+    // border-style: solid;
+    // float: right;
+    
+}
+
+.latestReadsDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1200px;
+    height: 530px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: $primary-color;
+    // border: wheat;
+    // border-style: solid;
+}
+
+
+
+
+
+.lrd {
+    border: white;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: $secondary-color;
+    
+}
+
+.nestedDiv{
+    text-align: center;
+    width: 620px;
+    // border: aqua;
+    // border-style: solid; 
+}
+
+.commonDivHeaderImage {
+    // width: 200px;
+    // height: 200px; 
+    margin: 140px;   
+        // border: aqua;
+        // border-style: solid;
+}
+
+.commonHeaderImage {
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.nameIcon {
+    margin-right: 20px;
+    height: 0px;
+    display: inline;
+    border: white;
+    border-style: solid;
+
+}
+  
+
+ul{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+li{
+    display: inline;
+    margin-right: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: $primary-font-family;
+}
+a:hover{
+    color:peachpuff;
+    text-decoration: underline;
+}
+
+// .paragraphStyles{
+
+// }
+
+.contentFooter  {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    margin-top: 200px;
+    background-color: $primary-color;
+    // border: wheat;
+    // border-style: solid;
+    color: white;
+    font-size: 8px;
+    font-family: $primary-font-family;  
+}
+
+
