@@ -4,7 +4,8 @@
 
 #marrionjohnson.io todos
 #learning/reading
--organize css files-learn more about scss and sass
+-organize css files with BEM
+-learn more about scs
 -use variables.scss to store variables for reuse
 #sit wide modification
 -add colors to under lining when hovering over links 

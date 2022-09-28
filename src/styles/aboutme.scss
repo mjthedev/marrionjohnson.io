@@ -122,7 +122,7 @@ body {
 
 .articleParagraph {
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-family: $primary-font-family;
     line-height: 30px;
 }
@@ -193,6 +193,19 @@ li.customLI {
     // text-align: start !important;
     // text-align-last: start !important;
 }
+
+
+li.customli__title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    list-style: none;
+    // text-indent: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: 1;
+    font-family: $primary-font-family;
+}
+
 
 
 // a{
