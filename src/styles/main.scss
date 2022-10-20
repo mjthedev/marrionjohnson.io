@@ -2,7 +2,16 @@
 @import 'variables.scss';
 $primary-color: #25292d;
 $secondary-color: rgb(25,28,31);
-$primary-font-family: "JetBrains Mono",monospace;
+$date-color: rgb(31, 117, 224);
+$date-color-secondary: rgb(119, 136, 153);
+$content-color: white;
+$section-div-bgColor: rgb(25,28,31);
+$date-font-family: 'IBM Plex Mono', monospace;
+$primary-font-family: "JetBrains Mono", monospace;
+$font-family-main: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+
+
+
 
 body {
     margin: 0px;
@@ -10,152 +19,19 @@ body {
 }
 
 
-.header{
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: 60px;
-    font-family: $primary-font-family;
-
-}
-
-.divHeader{
-    color: white;
-    font-size: 40px;
-    text-align: left;
-    width: 100%;
-    font-family: $primary-font-family;
-    // border: white;
-    // border-style: solid;
-}
-
-
-.divText{
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 20px;
-    font-family: $primary-font-family;
-    text-align: left;
-    line-height: 30px;
-
-}
-
-
 .navBar{
-
+    display: flex;
     height: 100px;
-    text-align: center;
-    border: white;
-    border-style: solid;
+    justify-content: center;
+    align-items: center;
     position:sticky;
     top:0;
     width: 100%;
     background-color: rgb(25,28,31);
-
 }
-
-
-.commonDiv{
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    height: 400px;
-    margin: auto;
-    background-color: $primary-color;
-    // border: wheat;
-    // border-style: solid;
-}
-
-.contentHeaders  {
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    margin: auto;
-    margin-bottom: 20px;
-    background-color: $primary-color;
-    // border: wheat;
-    // border-style: solid;
-    font-size: 20;
-    color: white;
-    font-family: $primary-font-family;  
-}
-
-.viewAll {
-    // display: inline;
-    display: inline;
-    width: 80px;
-    padding: 20px;
-    font-size: 8px;
-    text-align: right;
-    // border: wheat;
-    // border-style: solid;
-    // float: right;
-    
-}
-
-.latestReadsDiv {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    width: 1200px;
-    height: 530px;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: $primary-color;
-    // border: wheat;
-    // border-style: solid;
-}
-
-
-
-
-
-.lrd {
-    border: white;
-    border-style: solid;
-    border-radius: 4px;
-    background-color: $secondary-color;
-    
-}
-
-.nestedDiv{
-    text-align: center;
-    width: 620px;
-    // border: aqua;
-    // border-style: solid; 
-}
-
-.commonDivHeaderImage {
-    // width: 200px;
-    // height: 200px; 
-    margin: 140px;   
-        // border: aqua;
-        // border-style: solid;
-}
-
-.commonHeaderImage {
-    width: 300px;
-    height: 200px;
-}
-
-
-
-// .nameIcon {
-//     margin-right: 20px;
-//     height: 0px;
-//     display: inline;
-//     border: white;
-//     border-style: solid;
-
-// }
-  
 
 ul.commonUL{
-    margin-top: 50px;
     font-size: 20px;
-    text-align: center;
-
 }
 
 li.commonLI{
@@ -168,48 +44,481 @@ a.commonA{
     font-family: $primary-font-family;
 }
 a.commonA:hover{
-    color:peachpuff;
+
     text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: antiquewhite;
 }
 
-// // transitional underlining when hovering over text
-// .TRIJC {
-//     text-decoration: none;
-//     text-decoration-line: none;
-//     text-decoration-thickness: initial;
-//     text-decoration-style: initial;
-//     text-decoration-color: initial;
-//     padding-bottom: 2px;
-//     color: inherit;
-//     font-size: inherit;
-//     line-height: 21px;
-//     position: relative;
-// }
-
-// .TRIJC::before {
-//     content: "";
-//     display: block;
-//     position: absolute;
-//     bottom: 0px;
-//     left: 0px;
-//     right: 0px;
-//     width: 0px;
-//     height: 2px;
-//     background-color: rgb(0, 255, 0);
-//     transition: all 0.4s ease 0s;
-// }
 
 
+#container {
+ display: grid;
+ justify-items: center;
+ width: 100%;
+ height: 100%;
+ 
+}
 
-.contentFooter  {
-    text-align: center;
-    width: 100%;
-    height: 150px;
-    margin-top: 100px;
-    background-color: $primary-color;
-    // border: wheat;
-    // border-style: solid;
+.content-1 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100px;
     color: white;
-    font-size: 8px;
-    font-family: $primary-font-family;  
+    margin-top: 100px;
+    font-family: $font-family-main;
+    font-size: 33px;
+}
+
+.content-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    height: 500px;
+    color: white;
+}
+
+
+.content-2-child-text {
+    font-size: 1.4rem;
+    font-weight: thin;
+    line-height: 1.6;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    font-family: $font-family-main;
+}
+
+.content-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    width: 80%;
+    height: 100px;
+    color: white;
+    font-family: $font-family-main;
+}
+
+.content-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    height: 500px;
+    color: white;
+}
+
+.reads {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 150px;
+    background-color: $section-div-bgColor;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.reads-date {
+    font-family: $date-font-family;
+    font-weight: 100;
+    font-size: .85rem;
+    color: $date-color;
+}
+
+.reads-content {
+    font-family: $font-family-main;
+    color: $content-color;
+    text-decoration: none;
+}
+
+.reads-content:hover {
+    text-decoration: underline;
+    text-decoration-color: antiquewhite;
+    text-underline-offset: 5px;
+}
+
+
+.content-5 {
+    display: flex;
+    
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    color: white;
+    font-family: $font-family-main;
+}
+
+.content-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    height: 600px;
+    color: white;
+    font-family: $font-family-main;
+}
+
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 112px;
+    border: lightslategrey 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.tutorials-date {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: $date-font-family;
+    color: $date-color-secondary;
+    font-size: .85rem;
+    
+}
+
+.tutorials-content {
+    display: flex;
+    font-family: $font-family-main;
+    color: $content-color;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.tutorials-content:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.content-7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    color: white;
+    font-family: $font-family-main;
+}
+
+.content-8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: centerf;
+    width: 80%;
+    height: 300px;
+    color: white;
+}
+
+.sideprojects {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 150px;
+    background-color: $section-div-bgColor;
+    border-radius: 5px;
+    padding: 10px;
+}   
+
+.sideprojects-date {
+    font-family: $date-font-family;
+    color: $date-color;
+    margin-bottom: 0px;
+}
+
+.sideprojects-content {
+    font-family: $font-family-main;
+    color: white;
+}
+
+.content-9 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    height: 200px;
+    color: white;
+}
+
+.footer-content-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-items {
+    margin-left: 10px;
+    color: white;
+    font-family: $font-family-main;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .navbar {
+        width: 100%;
+        height: 110px;
+        font-family: $font-family-main;
+    }
+
+    .disappear-onmobile {
+        display: none;
+    }
+
+    ul.commonUL{
+        width: 100%;
+        font-size: 14px;
+        font-family: $font-family-main;
+        text-align: center;
+    }
+    
+    li.commonLI{
+        display: inline;
+        width: 100%;
+        margin-right: 20px;
+        font-family: $font-family-main;
+    }
+    a.commonA{
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        font-family: $font-family-main;
+    }
+    a.commonA:hover{
+        width: 900%;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-color: antiquewhite;
+    }
+
+    .content-1 {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 100px;
+        color: white;
+        margin-top: 50px;
+        font-family: $font-family-main;
+        font-size: 16px;
+    }
+
+    .content-2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 500px;
+        color: white;
+    }
+
+
+    .content-2-child-text {
+        font-size: 1.0rem;
+        font-weight: thin;
+        line-height: 1.6;
+        margin-bottom: 0;
+        margin-top: 1.5rem;
+        font-family: $font-family-main;
+    }
+    
+    .content-2-child-image {
+        display: none;
+    }
+    
+    .content-4 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        height: 100%;
+        color: white;
+    }
+
+    .content-3 {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        width: 90%;
+        height: 100px;
+        color: white;
+        font-family: $font-family-main;
+    }
+    
+
+    .reads {
+      width: 90%;
+    }
+    
+    .content-6 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        height: 100%;
+        color: white;
+        font-family: $font-family-main;
+    }
+
+    .tutorials {
+        width: 90%;
+    }
+
+    .content-8 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: centerf;
+        width: 90%;
+        height: 100%;
+        color: white;
+    }
+
+    .sideprojects {
+        width: 90%;
+    }
+
+    .content-9 {
+        width: 90%;
+        height: 200px;
+    }   
+    
+}
+
+
+
+@media (max-width: 500px) { 
+
+    .navbar {
+        width: 100%;
+        height: 110px;
+        font-family: $font-family-main;
+    }
+
+    .disappear-onmobile {
+        display: none;
+    }
+
+    ul.commonUL{
+        width: 100%;
+        font-size: 14px;
+        font-family: $font-family-main;
+        text-align: center;
+    }
+    
+    li.commonLI{
+        display: inline;
+        width: 100%;
+        margin-right: 20px;
+        font-family: $font-family-main;
+    }
+    a.commonA{
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        font-family: $font-family-main;
+    }
+    a.commonA:hover{
+        width: 900%;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-color: antiquewhite;
+    }
+
+    .content-1 {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 100px;
+        color: white;
+        margin-top: 50px;
+        font-family: $font-family-main;
+        font-size: 16px;
+    }
+
+    .content-2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 500px;
+        color: white;
+    }
+
+
+    .content-2-child-text {
+        font-size: 1.0rem;
+        font-weight: thin;
+        line-height: 1.6;
+        margin-bottom: 0;
+        margin-top: 1.5rem;
+        font-family: $font-family-main;
+    }
+    
+    .content-2-child-image {
+        display: none;
+    }
+    
+    .content-4 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        height: 100%;
+        color: white;
+    }
+
+    .content-3 {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        width: 90%;
+        height: 100px;
+        color: white;
+        font-family: $font-family-main;
+    }
+    
+
+    .reads {
+      width: 90%;
+    }
+    
+    .content-6 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        height: 100%;
+        color: white;
+        font-family: $font-family-main;
+    }
+
+    .tutorials {
+        width: 90%;
+    }
+
+    .content-8 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: centerf;
+        width: 90%;
+        height: 100%;
+        color: white;
+    }
+
+    .sideprojects {
+        width: 90%;
+    }
+
+    .content-9 {
+        width: 90%;
+        height: 200px;
+    }    
+    
 }

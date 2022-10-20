@@ -61,11 +61,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/html/thingsiread.html',
             filename: 'thingsiread.html',
-        }),
-        new HtmlWebpackPlugin({
-            template: './src/html/projects.html',
-            filename: 'projects.html',
-        }),
+        })
      
     ]
 };
