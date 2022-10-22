@@ -1,6 +1,6 @@
 // import generateJoke from "./generateJoke";
 
-// import '../styles/variables.scss';
+import '../styles/variables.scss';
 import '../styles/main.scss';
 import '../styles/aboutme.scss';
 import '../styles/thingsiread.scss';
